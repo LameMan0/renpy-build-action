@@ -25,7 +25,7 @@ if [ -d "$2/old-game" ]; then
 fi
 
 case $3 in
-    pc|mac|linux|market|web|android)
+    pc|market)
         COMMAND="../renpy/renpy.sh ../renpy/launcher distribute --package $3 $2"
         ;;
     *)
