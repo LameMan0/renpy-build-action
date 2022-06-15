@@ -16,11 +16,6 @@ inputs:
     type: choice
     options:
       - pc
-      - mac
-      - linux
-      - market
-      - web
-      - android
 outputs:
   dir:
     description: "The directory where the distributed files exist"
